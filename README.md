@@ -1,12 +1,12 @@
 # Telbiz TS SDK
 
-[![npm version](https://img.shields.io/npm/v/telbiz_ts.svg)](https://www.npmjs.com/package/telbiz_ts)
-[![npm downloads](https://img.shields.io/npm/dm/telbiz_ts.svg)](https://www.npmjs.com/package/telbiz_ts)
-[![license](https://img.shields.io/npm/l/telbiz_ts.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/telbiz-sdk-ts.svg)](https://www.npmjs.com/package/telbiz-sdk-ts)
+[![npm downloads](https://img.shields.io/npm/dm/telbiz-sdk-ts.svg)](https://www.npmjs.com/package/telbiz-sdk-ts)
+[![license](https://img.shields.io/npm/l/telbiz-sdk-ts.svg)](LICENSE)
 [![typescript](https://img.shields.io/badge/TypeScript-ready-blue)](https://www.typescriptlang.org/)
 
 > 🛠️ **TypeScript-ready SDK for Telbiz API**
-> This package (`telbiz_ts`) is a modern reimplementation of the original [telbiz](https://www.npmjs.com/package/telbiz) package, with full TypeScript support and typings.
+> This package (`telbiz-sdk-ts`) is a modern reimplementation of the original [telbiz](https://www.npmjs.com/package/telbiz) package, with full TypeScript support and typings.
 >
 > Supports **SMS sending** and **mobile top-up** via Telbiz API.
 
@@ -15,13 +15,13 @@
 ## 📦 Installation
 
 ```bash
-npm install telbiz_ts
+npm install telbiz-sdk-ts
 ```
 
 or
 
 ```bash
-yarn add telbiz_ts
+yarn add telbiz-sdk-ts
 ```
 
 ---
@@ -31,7 +31,7 @@ yarn add telbiz_ts
 ### TypeScript / ES Module
 
 ```ts
-import { Telbiz } from "telbiz_ts";
+import { Telbiz } from "telbiz-sdk-ts";
 
 const tb = new Telbiz("XXXXX253832870000", "b266ef94-bb18-4ff2-8f38-e358f130XXXX");
 
@@ -51,7 +51,7 @@ const tb = new Telbiz("XXXXX253832870000", "b266ef94-bb18-4ff2-8f38-e358f130XXXX
 ### CommonJS
 
 ```js
-const { Telbiz } = require("telbiz_ts");
+const { Telbiz } = require("telbiz-sdk-ts");
 
 const tb = new Telbiz("XXXXX253832870000", "b266ef94-bb18-4ff2-8f38-e358f130XXXX");
 
@@ -112,11 +112,12 @@ Send a mobile top-up.
 ## 📜 Related
 
 * [telbiz (JavaScript only)](https://www.npmjs.com/package/telbiz) — Original package
-* **telbiz\_ts** — TypeScript-ready version (this package)
+* **telbiz-sdk-ts** — TypeScript-ready version (this package)
 
 ## 🔗 Links
-- 📦 [NPM Package](https://www.npmjs.com/package/telbiz_ts)
-- 💻 [GitHub Repository](https://github.com/seng-dev/telbiz_ts)
+
+* 📦 [NPM Package](https://www.npmjs.com/package/telbiz-sdk-ts)
+* 💻 [GitHub Repository](https://github.com/seng-dev/telbiz_ts)
 
 ---
 
